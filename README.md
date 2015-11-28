@@ -20,10 +20,6 @@
 
 > Containers have similar resource isolation and allocation benefits as virtual machines but a different architectural approach allows them to be much more portable and efficient.
 
-![](/img/what-is-docker-diagram.png)
-
-![](/img/what-is-vm-diagram.png)
-
 **VMS: ** Mỗi VM bao gồm app, các thư viện cần thiết để run app đó, và cả một OS -> nặng cả chục GB :v
 **Containers: ** Chỉ gồm app và các denpendencies thôi, chúng nó share OS với containers khác. Chúng nó chạy độc lập với các containers khác và không phụ thuộc vào bất cứ infrastructure nào. Bất kì máy tính, bất kì nền tảng, thậm chí là trên mây cũng chạy được.
 
