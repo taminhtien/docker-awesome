@@ -12,16 +12,16 @@
 ## Some Docker's benefits
 
 - Docker images sẽ giúp các dev trong team có đc một môi trường dev đồng nhất, không mất công set up tùm lum stuff (nếu sài images của người ta :3).
-- Lightweight (nhẹ): Các containers share cùng một OS (Linux kernel) nhờ Docker Engine -> chạy nhanh, hiệu suất cao, sử dụng tài nguyên máy hiệu quả hơn, nhất là RAM (đứng ở khía cạnh một người từng dùng VMWare tôi thích điều này =)))
-- Open: Các containers có thể chạy trên cả các Microsoft OS chứ k chỉ các Linux distributions. Ảo vậy :v
-- Secure: Containers cô lập apps và còn tạo ra 1 lớp bảo vệ cho app đó nữa. (k hiểu lắm -_-)
+- **Lightweight (nhẹ):** Các containers share cùng một OS (Linux kernel) nhờ Docker Engine -> chạy nhanh, hiệu suất cao, sử dụng tài nguyên máy hiệu quả hơn, nhất là RAM (đứng ở khía cạnh một người từng dùng VMWare tôi thích điều này =)))
+- **Open:** Các containers có thể chạy trên cả các Microsoft OS chứ k chỉ các Linux distributions. Ảo vậy :v
+- **Secure:** Containers cô lập apps và còn tạo ra 1 lớp bảo vệ cho app đó nữa. (k hiểu lắm -_-)
 
-# How is this different from virtual machines?**
+# How is this different from virtual machines?
 
 > Containers have similar resource isolation and allocation benefits as virtual machines but a different architectural approach allows them to be much more portable and efficient.
 
-**VMS: ** Mỗi VM bao gồm app, các thư viện cần thiết để run app đó, và cả một OS -> nặng cả chục GB :v
-**Containers: ** Chỉ gồm app và các denpendencies thôi, chúng nó share OS với containers khác. Chúng nó chạy độc lập với các containers khác và không phụ thuộc vào bất cứ infrastructure nào. Bất kì máy tính, bất kì nền tảng, thậm chí là trên mây cũng chạy được.
+- **VMS:** Mỗi VM bao gồm app, các thư viện cần thiết để run app đó, và cả một OS -> nặng cả chục GB :v
+- **Containers:** Chỉ gồm app và các denpendencies thôi, chúng nó share OS với containers khác. Chúng nó chạy độc lập với các containers khác và không phụ thuộc vào bất cứ infrastructure nào. Bất kì máy tính, bất kì nền tảng, thậm chí là trên mây cũng chạy được.
 
 # How does this help you build better software?
 
@@ -31,8 +31,8 @@ Như đã nói ở VD trên, bạn chỉ code thôi, mọi chuyện setup, maint
 
 Một số benefits khác:
 
-- Accelerate Developer Onboarding: Tăng tốc quá trình, giúp dev bắt tay vào code nhanh hơn.
-- Empower Developer Creativity: Nôm na là giúp dev có thể thoải mái test languages, tools, thử mọi thứ mà không phải sợ hư máy, sợ conficts, issues, mất công fix :v
-- Eliminate Environment Inconsistencies: Nhờ tính đóng gói app mà containers sẽ chạy trên bất kì nền tảng, chạy như chính nó chạy trên cái máy đã thiết kế ra nó, không lo ngại sự không nhất quán giữa các environment (trên các máy khác, trong test hay production,...).
-- Easily Share and Collaborate on Applications: Thông qua việc chia sẽ các Docker images mà các devs có thể dễ dàng chia sẽ và đóng góp vào apps nhanh hơn, dễ dàng hơn. 
-- Ship More Software Faster: Đẩy nhanh quá trình phát triển phần mềm
+- **Accelerate Developer Onboarding:** Tăng tốc quá trình, giúp dev bắt tay vào code nhanh hơn.
+- **Empower Developer Creativity:** Nôm na là giúp dev có thể thoải mái test languages, tools, thử mọi thứ mà không phải sợ hư máy, sợ conficts, issues, mất công fix :v
+- **Eliminate Environment Inconsistencies:** Nhờ tính đóng gói app mà containers sẽ chạy trên bất kì nền tảng, chạy như chính nó chạy trên cái máy đã thiết kế ra nó, không lo ngại sự không nhất quán giữa các environment (trên các máy khác, trong test hay production,...).
+- **Easily Share and Collaborate on Applications:** Thông qua việc chia sẽ các Docker images mà các devs có thể dễ dàng chia sẽ và đóng góp vào apps nhanh hơn, dễ dàng hơn. 
+- **Ship More Software Faster:** Đẩy nhanh quá trình phát triển phần mềm
