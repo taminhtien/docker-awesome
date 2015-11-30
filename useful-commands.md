@@ -4,6 +4,18 @@
 
 ```docker pull <image name>```
 
+**Push một image**
+
+```
+1. Tag your image
+$ docker tag IMAGE_ID YOURNAME/YOUR-REPO:TAG-NAME
+$ docker tag 7d9495d03763 maryatdocker/docker-whale:latest
+2. Login
+$ docker login --username=yourhubusername --email=youremail@company.com
+3. Push
+$ docker push maryatdocker/docker-whale
+```
+
 **Tạo một container từ image có sẵn**
 
 ```docker run -v <thư mục trên máy tính>:<thư mục trong container> -it <image name> /bin/bash```
